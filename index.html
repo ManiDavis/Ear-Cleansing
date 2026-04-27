@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ear Cleanse | Professional Ear Wax Removal – Southampton</title>
+  <meta name="description" content="Mobile ear wax removal specialist serving Southampton and surrounding areas. Microsuction & irrigation. Fully insured & professionally trained. Book today." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo">
+        <span class="logo__mark">EC</span>
+        <span class="logo__text">Ear Cleanse</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="btn btn--outline">Book Now</a>
+      </nav>
+      <button class="nav__burger" aria-label="Open menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#services" onclick="toggleMenu()">Services</a>
+      <a href="#how-it-works" onclick="toggleMenu()">How It Works</a>
+      <a href="#pricing" onclick="toggleMenu()">Pricing</a>
+      <a href="#contact" class="btn btn--primary" onclick="toggleMenu()">Book Now</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="badge">Serving Southampton &amp; Surrounding Areas</span>
+        <h1>Professional Ear Wax Removal, <em>At Your Door</em></h1>
+        <p class="hero__sub">Safe, effective ear care from a fully insured and professionally trained Mobile Ear Care Practitioner — no GP referral needed.</p>
+        <div class="hero__ctas">
+          <a href="#contact" class="btn btn--primary btn--lg">Book an Appointment</a>
+          <a href="#services" class="btn btn--ghost btn--lg">Learn More</a>
+        </div>
+        <ul class="hero__trust">
+          <li><span class="check">✓</span> Microsuction &amp; Irrigation</li>
+          <li><span class="check">✓</span> Mobile &amp; Clinic Options</li>
+          <li><span class="check">✓</span> Fully Insured</li>
+        </ul>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card">
+          <div class="offer-card">
+            <p class="offer-card__eyebrow">New Client Offer</p>
+            <p class="offer-card__price">£45</p>
+            <p class="offer-card__desc">Health Check + Wax Removal Bundle</p>
+            <ul class="offer-card__list">
+              <li>Full ear health assessment</li>
+              <li>Safe wax removal</li>
+              <li>Aftercare advice</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Claim Offer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>What We Offer</h2>
+        <p>Comprehensive ear health care delivered professionally and safely</p>
+      </div>
+      <div class="cards">
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2.5"/><path d="M24 14v10l6 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Ear Health Assessment</h3>
+          <p>A thorough examination of both ears to identify blockages, irritation, or any concerns — giving you a clear picture of your ear health.</p>
+        </div>
+
+        <div class="card card--featured">
+          <div class="card__badge">Most Popular</div>
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M10 24c0-7.732 6.268-14 14-14s14 6.268 14 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M24 38c-3 0-8-2-8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="32" r="3" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Microsuction</h3>
+          <p>The gold standard in wax removal. A gentle, dry procedure using a fine suction device — safe, fast, and highly effective even for stubborn blockages.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M16 12h16v4a8 8 0 0 1-8 8 8 8 0 0 1-8-8v-4Z" stroke="currentColor" stroke-width="2.5"/><path d="M24 24v12M18 36h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Irrigation</h3>
+          <p>A water-based method to gently flush away ear wax — a tried-and-tested technique suited to most ear types, delivered with care and precision.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 10l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6l2-6Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><circle cx="24" cy="34" r="4" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Aftercare Advice</h3>
+          <p>Personalised guidance on keeping your ears healthy after your appointment, so you stay comfortable and blockage-free for longer.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section--alt" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>How It Works</h2>
+        <p>Simple, straightforward, and stress-free from first contact to aftercare</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <h3>Get in Touch</h3>
+          <p>Call or email to discuss your symptoms. Vickie will help you choose the right appointment type — mobile home visit or clinic.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <h3>Your Appointment</h3>
+          <p>Vickie arrives fully equipped. She carries out a health assessment, then performs the appropriate wax removal procedure.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <h3>Feel the Difference</h3>
+          <p>Leave with clearer hearing and personalised aftercare advice to keep your ears in great shape going forward.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Choose Ear Cleanse?</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="feature__icon">🏠</div>
+          <h3>We Come to You</h3>
+          <p>No waiting rooms. No travel stress. Vickie visits you at home anywhere in Southampton and the surrounding areas, on your schedule.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">🛡️</div>
+          <h3>Fully Insured</h3>
+          <p>Complete peace of mind — all treatments are carried out by a fully insured practitioner operating to the highest professional standards.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">🎓</div>
+          <h3>Professionally Trained</h3>
+          <p>Vickie holds specialist training in ear care and wax removal, so you're in safe, knowledgeable hands every time.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">📍</div>
+          <h3>Clinic Option Available</h3>
+          <p>Prefer to come to us? A clinic-based appointment is also available — just let us know when you book.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section section--alt" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2>Simple, Transparent Pricing</h2>
+        <p>No hidden fees. Pay only for what you need.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card price-card--featured">
+          <div class="price-card__label">New Client Special</div>
+          <h3>Health Check + Wax Removal</h3>
+          <div class="price-card__price"><span>£</span>45</div>
+          <p class="price-card__desc">Everything you need in one appointment</p>
+          <ul class="price-card__list">
+            <li>Full ear health assessment</li>
+            <li>Microsuction or irrigation</li>
+            <li>Both ears included</li>
+            <li>Aftercare advice</li>
+            <li>Mobile or clinic option</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Book This Offer</a>
+        </div>
+        <div class="pricing-note">
+          <h3>Not sure what you need?</h3>
+          <p>Give Vickie a call or send an email — she's happy to chat through your symptoms and recommend the right appointment for you. There's no obligation.</p>
+          <div class="contact-quick">
+            <a href="tel:07494860459" class="contact-quick__item">
+              <span>📞</span>
+              <span>07494 860459</span>
+            </a>
+            <a href="mailto:enquiries@earcleanse.net" class="contact-quick__item">
+              <span>✉️</span>
+              <span>enquiries@earcleanse.net</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOK -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Book an Appointment</h2>
+        <p>Get in touch to arrange your visit — Vickie will get back to you promptly</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-item__icon">📞</span>
+              <div>
+                <p class="contact-item__label">Phone</p>
+                <a href="tel:07494860459">07494 860459</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon">✉️</span>
+              <div>
+                <p class="contact-item__label">Email</p>
+                <a href="mailto:enquiries@earcleanse.net">enquiries@earcleanse.net</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon">📍</span>
+              <div>
+                <p class="contact-item__label">Area Served</p>
+                <p>Southampton &amp; surrounding areas</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-note">
+            <p><strong>Struggling with blocked ears or reduced hearing?</strong> Don't wait — get in touch today. Early care makes a real difference.</p>
+          </div>
+        </div>
+
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="07700 000000" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="appointment-type">Appointment Preference</label>
+            <select id="appointment-type" name="appointment-type">
+              <option value="">Select an option</option>
+              <option value="mobile">Mobile (home visit)</option>
+              <option value="clinic">Clinic</option>
+              <option value="unsure">Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell us about your symptoms</label>
+            <textarea id="message" name="message" rows="4" placeholder="e.g. blocked feeling in one ear, reduced hearing for 2 weeks..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Enquiry</button>
+          <p class="form-note">We typically respond within a few hours during business hours.</p>
+          <div class="form-success" id="formSuccess">
+            <strong>Thanks! We'll be in touch shortly.</strong>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo logo--light">
+          <span class="logo__mark">EC</span>
+          <span class="logo__text">Ear Cleanse</span>
+        </a>
+        <p>Professional mobile ear care for Southampton and surrounding areas.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Book Now</a>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <a href="tel:07494860459">07494 860459</a>
+        <a href="mailto:enquiries@earcleanse.net">enquiries@earcleanse.net</a>
+        <p>Southampton, SO40 9JU</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 Ear Cleanse. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
